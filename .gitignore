@@ -1,0 +1,10 @@
+# Whitelist mode: ignore everything in ~/.claude by default.
+# The directory contains credentials, session history, and caches
+# that must never be committed.
+/*
+
+# Tracked files — the shared Claude Code setup
+!/.gitignore
+!/README.md
+!/CLAUDE.md
+!/rules/
