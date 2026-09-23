@@ -8,3 +8,6 @@
 !/README.md
 !/CLAUDE.md
 !/rules/
+!/skills/
+/skills/*
+!/skills/coding-discipline/

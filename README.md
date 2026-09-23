@@ -2,7 +2,7 @@ My personal global Claude Code configuration — the `~/.claude` folder on my ma
 
 ## What's in here
 
-Two things are tracked:
+Three things are tracked:
 
 - **`CLAUDE.md`** — the global instructions Claude Code loads in every session. It stays short and points to the rules below.
 - **`rules/`** — one file per kind of task, loaded only when relevant:
@@ -12,6 +12,7 @@ Two things are tracked:
   - `version-control.md` — branch prefixes, commit granularity, PR and merge policy
   - `communication.md` — writing style for replies, PRs, tickets, docs
   - `google-sheets-mcp.md` — Google Sheets MCP setup and safe read/write rules
+- **`skills/coding-discipline/`** — the coding guidelines skill that `rules/implementation.md` invokes before planning and coding.
 
 Everything else that lives in `~/.claude` (credentials, session history, caches, plugins, project memory) is **not** tracked. The `.gitignore` works as a whitelist: it ignores everything, then explicitly allows the files above. Nothing gets committed unless it's on that list.
 
