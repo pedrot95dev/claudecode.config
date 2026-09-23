@@ -7,7 +7,7 @@ Two things are tracked:
 - **`CLAUDE.md`** — the global instructions Claude Code loads in every session. It stays short and points to the rules below.
 - **`rules/`** — one file per kind of task, loaded only when relevant:
   - `implementation.md` — orchestrate implementation via subagents
-  - `code-review.md` — parallel review passes, aggregate, fix, loop
+  - `code-review.md` — single-agent review pass, verify, fix, loop
   - `research.md` — decompose questions and delegate to subagents
   - `version-control.md` — branch prefixes, commit granularity, PR and merge policy
   - `communication.md` — writing style for replies, PRs, tickets, docs
