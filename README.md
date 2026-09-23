@@ -11,6 +11,7 @@ Two things are tracked:
   - `research.md` — decompose questions and delegate to subagents
   - `version-control.md` — branch prefixes, commit granularity, PR and merge policy
   - `communication.md` — writing style for replies, PRs, tickets, docs
+  - `google-sheets-mcp.md` — Google Sheets MCP setup and safe read/write rules
 
 Everything else that lives in `~/.claude` (credentials, session history, caches, plugins, project memory) is **not** tracked. The `.gitignore` works as a whitelist: it ignores everything, then explicitly allows the files above. Nothing gets committed unless it's on that list.
 
